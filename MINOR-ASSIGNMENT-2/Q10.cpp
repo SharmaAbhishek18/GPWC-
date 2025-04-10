@@ -3,7 +3,6 @@ frame to know how long each and every frame takes. In addition, however, clock.r
 returns the amount of time that has elapsed since the last time we restarted the clock. So, compute
 the distance a spriteBee object will cover in a frame assuming the speed of the spriteBee is
 beeSpeed pixels/second.
-
 ANSWER:>>
 sf::Clock clock;                // Create a clock
 float beeSpeed = 200.0f;        // Speed in pixels/second
